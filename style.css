@@ -2234,4 +2234,35 @@ input[type="checkbox"]:checked ~ label span svg{
   }
 }
 
+/* Tablets (768px and above) */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .box {
+    margin: 15px 0;
+  }
+}
+
+/* Mobile Devices (480px and below) */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+    background-color: #e0e0e0;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .box {
+    padding: 15px;
+    margin: 10px 0;
+  }
+}
 
